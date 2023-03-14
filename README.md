@@ -1,5 +1,5 @@
 # GIS-portfolio
-My portfolio from Advanced GIS at Carnegie Mellon University
+My portfolio from Advanced GIS at Carnegie Mellon University.
 
 # About me
 I'm a second year Masters student in the Masters of Science in Public Policy and Management - Data Analytics Program at the Heinz College. Previously, I received my bachelors in Policy Analysis from Indiana University. I mentioned this in class, but I don't like chocolate and I also don't like coffee or mint either! In my free time I enjoy hiking, fashion, sports, and traveling.
