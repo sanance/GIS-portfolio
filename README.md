@@ -1,5 +1,5 @@
-# GIS-portfolio
-My portfolio from Advanced GIS at Carnegie Mellon University.
+# GIS portfolio
+Sarah Nance's portfolio from Advanced GIS at Carnegie Mellon University.
 
 # About me
 Hi, I'm Sarah! I'm a second year Masters student in the Masters of Science in Public Policy and Management - Data Analytics Program at Carnegie Mellon's Heinz College. Previously, I received my bachelors in Policy Analysis from Indiana University. I mentioned this in class, but I don't like chocolate and I also don't like coffee or mint either! In my free time I enjoy hiking, fashion, sports, and traveling.
