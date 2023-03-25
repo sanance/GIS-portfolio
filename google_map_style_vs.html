@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Give me a name!</title>
+    <title>Styled Maps - Pink Panther Theme</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <style>
@@ -22,18 +22,25 @@
     <div id="map"></div>
     <script>
       function initMap() {
-        // Styles a map in custom mode.
+        // Styles a map in Pink Panther mode.
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 40.4583498, lng: -80.079528},  // Setting the center to Pittsburgh, change as you like
+          center: {lat: 40.4583498, lng: -80.079528},  // Setting the center to Pittsburgh
           zoom: 15,  // Setting a zoom scale for Pittsburgh
-          styles:    // Add JSON from Map Style Wizard below this line... 
-          [ 
-            {  "elementType": "geometry", "stylers": [    { "color": "#242f3e" }  ] },
+        // Add JSON from Map Style Wizard here  
+          styles: [
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#610c4c"
+      }
+    ]
+  },
   {
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#f7795a"
+        "color": "#d61e99"
       }
     ]
   },
@@ -41,43 +48,52 @@
     "elementType": "labels.text.stroke",
     "stylers": [
       {
-        "color": "#321711"
+        "color": "#24041b"
       }
     ]
   },
   {
-    "featureType": "administrative.locality",
+    "featureType": "administrative",
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#141c83"
+        "visibility": "off"
       }
     ]
   },
   {
-    "featureType": "administrative.locality",
+    "featureType": "administrative.country",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#ef31d5"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#f7795a"
+        "color": "#610c4c"
       }
     ]
   },
   {
-    "featureType": "administrative.locality",
-    "elementType": "labels.text.stroke",
+    "featureType": "administrative.province",
+    "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#321711"
-      }
-    ]
-  },
-  {
-    "featureType": "landscape.man_made",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#141c83"
+        "color": "#ef31d5"
       }
     ]
   },
@@ -86,7 +102,7 @@
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#141c83"
+        "color": "#610c4c"
       }
     ]
   },
@@ -95,7 +111,24 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#141c83"
+        "color": "#610c4c"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#283d6a"
       }
     ]
   },
@@ -104,7 +137,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#f7795a"
+        "color": "#d61e99"
       }
     ]
   },
@@ -113,16 +146,16 @@
     "elementType": "labels.text.stroke",
     "stylers": [
       {
-        "color": "#321711"
+        "color": "#24041b"
       }
     ]
   },
   {
     "featureType": "poi.park",
-    "elementType": "geometry",
+    "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#1b43b1"
+        "color": "#023e58"
       }
     ]
   },
@@ -131,16 +164,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#f7795a"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#321711"
+        "color": "#a3147a"
       }
     ]
   },
@@ -149,16 +173,16 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#a7892f"
+        "color": "#d61e99"
       }
     ]
   },
   {
     "featureType": "road",
-    "elementType": "geometry.stroke",
+    "elementType": "labels.icon",
     "stylers": [
       {
-        "color": "#242f3a"
+        "visibility": "off"
       }
     ]
   },
@@ -167,7 +191,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#f7795a"
+        "color": "#d61e99"
       }
     ]
   },
@@ -176,7 +200,16 @@
     "elementType": "labels.text.stroke",
     "stylers": [
       {
-        "color": "#321711"
+        "color": "#24041b"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -185,7 +218,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#f9ca3c"
+        "color": "#ef31d5"
       }
     ]
   },
@@ -194,7 +227,16 @@
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#f9ca3c"
+        "color": "#d61e99"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
@@ -203,25 +245,68 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#f7795a"
+        "color": "#d61e99"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#24041b"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
       }
     ]
   },
   {
     "featureType": "transit",
-    "elementType": "geometry",
     "stylers": [
       {
-        "color": "#f7795a"
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#d61e99"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#24041b"
       }
     ]
   },
   {
     "featureType": "transit.line",
-    "elementType": "geometry",
+    "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#f7795a"
+        "color": "#610c4c"
       }
     ]
   },
@@ -230,25 +315,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#f7795a"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.station",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#f7795a"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.station",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#321711"
+        "color": "#610c4c"
       }
     ]
   },
@@ -257,10 +324,7 @@
     "elementType": "geometry",
     "stylers": [
       {
-        "color": "#0c1050"
-      },
-      {
-        "weight": 1
+        "color": "#24041b"
       }
     ]
   },
@@ -269,21 +333,12 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#f7795a"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#321711"
+        "color": "#a3147a"
       }
     ]
   }
 ]
-// ..and here's the end of JSON from Style Wizard          
+// End of JSON from Style Wizard          
         });
       }
 // Don't forget your API Key below vv
