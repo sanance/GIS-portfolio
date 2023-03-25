@@ -3,6 +3,19 @@ health and creating a more equitable and humane world for everyone. I worked for
 an example of a custom map they could use.
 
 The main color palette for Vital Strategies is 
-![image](https://user-images.githubusercontent.com/112127273/227742550-446cea0e-5714-4131-b11f-97982581f4d9.png)![image](https://user-images.githubusercontent.com/112127273/227742849-6a458ce2-51e6-4753-8e92-49cd4d3f89b8.png)
 
+<img src="https://user-images.githubusercontent.com/112127273/227742977-eb9360f3-f4b7-4ce4-aba6-5dc22b772565.png" width="750" height="350" />
+
+However, it is tricky to create a map only using 3 distinct colors. As a result, additional colors were used to enhance the map. The full list of all colors used and their corresponding hex codes is as follows:
+
+<pre>
+Deep Koamaru:  #141C84  
+Bittersweet:   #F7795A  
+Bright Sun:    #F9CA3C  
+Coffee Bean:   #321711  
+Ebony Clay:    #242F3E  
+Persian Blue:  #1B43B1  
+Luxor Gold:    #A7892F  
+Downriver:     #0C1050
+</pre>
 
