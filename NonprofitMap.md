@@ -33,4 +33,5 @@ Luxor Gold:    #A7892F
 Downriver:     #0C1050
 </pre>
 
-
+<B>Process and Design Decisions</B>
+First when creating these maps I went to the Vital Strategies website and took images of the site in order to obtain their general branding and color palette. I uploaded the images to the Canva color palette generator and obtained the 3 main colors that Vital Strategies uses. 
