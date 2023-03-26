@@ -5,15 +5,15 @@ The 3 main ways that Vital Strategies breaks up their overdose prevention resour
 
 <B>Northeast Region</B>
 
-<img width="665" alt="Regional view 2" src="https://user-images.githubusercontent.com/112127273/227787563-66e86e43-9383-45ee-87b2-bbc6f9a35e2a.PNG">
+<img width="665" alt="Regional View" src="https://user-images.githubusercontent.com/112127273/227792924-953d98e4-c0fa-46dc-94d7-bf42aa974190.PNG">
 
 <B>State of Pennsylvania</B>
 
-<img width="665" alt="State view" src="https://user-images.githubusercontent.com/112127273/227787273-c7993349-76ae-4780-8669-8f9e179d83cd.PNG">
+<img width="665" alt="State View" src="https://user-images.githubusercontent.com/112127273/227792995-bde21cab-7d0a-4ebd-8e0d-7cedcb4c3e0b.PNG">
 
 <B>City of Pittsburgh</B>
 
-<img width="665" alt="City View" src="https://user-images.githubusercontent.com/112127273/227787601-0494862b-fb63-475e-8572-b091d2b61c79.PNG">  
+<img width="665" alt="City View" src="https://user-images.githubusercontent.com/112127273/227793007-2f905d18-c112-4448-a213-f6a6eb827c24.PNG">
 <br>
 
 The main color palette for Vital Strategies is 
