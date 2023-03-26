@@ -20,7 +20,7 @@ The 3 main ways that Vital Strategies breaks up their overdose prevention resour
 
 The main color palette for Vital Strategies is 
 
-<img src="https://user-images.githubusercontent.com/112127273/227742977-eb9360f3-f4b7-4ce4-aba6-5dc22b772565.png" width="300" height="150" />
+<img src="https://user-images.githubusercontent.com/112127273/227742977-eb9360f3-f4b7-4ce4-aba6-5dc22b772565.png" width="400" height="200" />
 
 However, it is tricky to create a map only using 3 distinct colors. As a result, additional colors were used to enhance the map. The full list of all colors used and their corresponding hex codes is as follows:
 
