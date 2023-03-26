@@ -14,7 +14,7 @@ The 3 main ways that Vital Strategies breaks up their overdose prevention resour
 <B>City of Pittsburgh</B>
 
 <img width="665" alt="City View" src="https://user-images.githubusercontent.com/112127273/227787601-0494862b-fb63-475e-8572-b091d2b61c79.PNG">  
-<br></br>
+<br>
 
 The main color palette for Vital Strategies is 
 
