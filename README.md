@@ -14,3 +14,5 @@ I'd also really enjoy learning how to integrate GIS maps with webpages. Last sum
 # Portfolio
 
 [SummerFest Embedded Map](https://sanance.github.io/GIS-portfolio/SummerFest)
+
+[Nonprofit Proposal and Map Branding](https://sanance.github.io/GIS-portfolio/NonprofitMap)
