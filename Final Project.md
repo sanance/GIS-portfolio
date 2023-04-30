@@ -65,11 +65,41 @@ Overall, I was slightly under time and as a result slightly under budget. I took
 **Final Web Map**
 <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="North Carolina Overdose Prevention Resources" src="//carnegiemellon.maps.arcgis.com/apps/Embed/index.html?webmap=b546af08ea0a4eee9839d6c2458a03c7&extent=-85.2504,33.0594,-74.4729,37.2523&home=true&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
 
+
 **Links to Final Notebooks**
 
 [Starting Notebook](https://carnegiemellon.maps.arcgis.com/home/notebook/notebook.html?id=0f7bcf9d414247888a771a9873981078#)
 
 [Automated Notebook](https://carnegiemellon.maps.arcgis.com/home/notebook/notebook.html?id=dfeddb8cf2744448888b99ec088cec20)
 
-**Instructions on How to Use Final Assets**
+**Instructions on How to Use Final Products**
 
+As explained in the proposal, the main final asset from this project is an ArcGIS Online web map for North Carolina with a point feature class layer of overdose prevention resources that automatically updates. Currently, the map shows buprenorphine providers according to the Substance Abuse and Mental Health Services Administration and health departments that have naloxone according to Naloxone Saves. Buprenorphine is used to treat opioid use disorders and naloxone can reverse an opioid overdose. This map also automatically updates at regular intervals based on data from the identified online websites. This process ensures that if the websites update their data, the map gets updated as well. Currently, the automated notebook that extracts the data from the aforementioned websites and creates the feature layers and web map is set to run every Sunday at 12am. This time was chosen so as to interfere with the fewest people possible, but can be changed if desired. 
+
+The web map, North Carolina Overdose Prevention Resources, contains 2 separate point feature class layers: one for buprenorphine providers and one for health departments. The buprenorphine providers are colored orange and the health departments are dark blue. Each point has a pop-up with information that users can view in order to learn more about that location such as the phone number and address.
+
+In order to automatically update the web map, two ArcGIS Online notebooks were created. The first, the ‘Starting Maps and Layers notebook’, creates the maps and feature layers for the first time. This notebook is entirely foundational and after it is run once it will never be run again. The second notebook is the automated one, that runs at a set time or interval and changes the contents of the web map. The only difference between the two notebooks is that the automated one contains additional code that deletes and replaces the previously created feature layers and web map. The notebooks are commented to make them easier to follow what each chunk is doing. 
+
+**How to Use From Scratch**
+
+1. Click the link to the ‘Starting notebook’ and in the upper right click ‘Open Notebook’ 
+2. Run the notebook by clicking on the ‘Restart the Kernel and Rerun the Whole Notebook with Dialog” button, which looks like a fast forward button. This will create the web map and related features for the first time. 
+3. Close the ‘Starting notebook’. You will not be using this ever again unless your ArcGIS Online account loses all of its contents or you change ArcGIS Online accounts. 
+4. Click the link to the ‘Automated notebook’ and in the upper right click ‘Open Notebook’. Currently this notebook is set to run every Sunday at midnight in order to pull the most recent data from the websites and ensure the map always contains up to date information. You DO NOT need to do anything with this notebook as it is automatic.
+5. Enjoy the web map! You can click the link to the Web Map in order to view it. The map is called “North Carolina Overdose Prevention Resources” when you view the contents of your ArcGIS Online account. 
+
+If you decide that the map needs to be updated at a different interval or different time, there are two options. 
+
+1. Manually run the notebook. This might be good for a one-time situation where the web map needs to be updated sooner than the usual scheduled time. Follow the same process as with the ‘Starting Notebook’. Run the notebook by clicking on the ‘Restart the Kernel and Rerun the Whole Notebook with Dialog” button, which looks like a fast forward button. This will recreate the web map and related features. 
+
+2. Change the interval at which the notebook runs. This might be good if there is a repeated need to update the web map more or less often. On the ribbon at the top of the ‘Automated Notebook’, click ‘Tasks’. 
+
+    - This will open a menu of all scheduled tasks. The currently scheduled task of running the code, entitled ‘Update Overdose Prevention Resources’ can be changed by clicking the three dots and selecting edit. 
+
+    - Once you have selected to edit the task, hit next and go to ‘2. Set Task Schedule Details’. On this page you can change the interval, day, time, and end time of the task. 
+
+   - Click ‘Save task’ to save any changes you have made. If you would like to check that the notebook is automatically updating and running properly, click on tasks     and the three dots next to the task. Instead of selecting ‘Edit’, choose ‘View Details’. 
+
+   - This provides a pop-up that indicates the last time the task was run (Created) and if the notebook was modified to show the new output (Modified). These two     fields provide an idea of how long the notebook is taking to run. Importantly, ‘Status’ also indicates if the notebook was successful in running all the way through or not. If it says ‘Failed’, this indicates an error in the code that will need to be addressed by someone knowledgeable with the ArcGIS API for Python and this particular project/notebook. 
+
+See [Client Walk-Through Document](https://github.com/sanance/GIS-portfolio/blob/main/Client%20Walk-Through.docx) for instructions with pictures
